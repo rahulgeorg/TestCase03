@@ -1,0 +1,11 @@
+.img-text {
+   display: flex;
+   img {
+      margin-right: 10px;
+      width: 25px;
+      height: 25px;
+   }
+   p {
+      color: var(--clr-blue);
+   }
+}
