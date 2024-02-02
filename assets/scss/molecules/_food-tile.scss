@@ -1,0 +1,17 @@
+.food-tile {
+   width: 200px;
+   height: auto;
+   text-align: center;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+   &__clr-blue {
+      color: var(--clr-blue);
+      font-weight: 700;
+   }
+   &__clr-red {
+      color: var(--clr-red);
+      font-weight: 500;
+   }
+   &__font12 {
+      font-size: 12px;
+   }
+}
