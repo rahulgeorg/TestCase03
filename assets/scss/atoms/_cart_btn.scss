@@ -1,0 +1,22 @@
+.cart__btn {
+    background-color: var(--clr-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--clr-blue);
+    font-weight: 700;
+    font-size: 13px;
+    border: 1px solid var(--clr-blue);
+    padding: 20px 15px 15px 15px;
+    margin: 40px;
+  
+    &:hover {
+      color: var(--clr-white);
+      background-color: var(--clr-blue);
+      transition: .3s ease-in-out;
+    }
+  }

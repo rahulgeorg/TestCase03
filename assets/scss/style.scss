@@ -9,8 +9,10 @@
 
 // atoms
 @import './atoms/head_one';
+@import './atoms/cta';
+@import './atoms/cart_btn';
+
 // molecule
-@import 'molecules/test-card';
 @import 'molecules/img-txt';
 @import 'molecules/food-tile';
 // organisms
