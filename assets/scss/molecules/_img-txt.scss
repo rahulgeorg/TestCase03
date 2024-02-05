@@ -8,14 +8,26 @@
    }
    // styling of modifier in banner section ends
 
-   img {
+   svg {
       margin-right: 10px;
       width: 25px;
       height: 25px;
+      &:hover {
+         cursor: pointer;
+      }
+      path {
+         &:hover {
+            stroke: var(--clr-red);
+         }
+      }
    }
 
    p {
       color: var(--clr-blue);
+      &:hover {
+         color: var(--clr-red);
+         cursor: pointer;
+      }
    }
 
   
