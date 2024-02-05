@@ -14,7 +14,7 @@
     cursor: pointer;
     position: absolute;
     left: 25px;
-    top: 28%;
+    top: 18%;
    }
 
    &__right-arw{
@@ -27,7 +27,7 @@
     cursor: pointer;
     position: absolute;
     right: 25px;
-    top: 28%;
+    top: 18%;
    }
 
    .slick-dots li button:before {
@@ -44,6 +44,15 @@
 
    &__banner-menu-wrap{
 
+    width: 100%;
     display: flex;
+    justify-content: center;
+    
+    img{
+        width: 45px;
+        height: 45px;
+    }
+
+
    }
 }

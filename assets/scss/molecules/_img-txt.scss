@@ -1,10 +1,19 @@
 .img-text {
    display: flex;
+
+   // styling of modifier in banner section starts
+   &--banner-menu{
+      align-items: center;
+      margin: 0px 20px;
+   }
+   // styling of modifier in banner section ends
+
    img {
       margin-right: 10px;
       width: 25px;
       height: 25px;
    }
+
    p {
       color: var(--clr-blue);
    }
