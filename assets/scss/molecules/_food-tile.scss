@@ -1,11 +1,17 @@
 .food-tile {
+   padding: 20px 0px;
    width: 200px;
    height: auto;
    text-align: center;
-   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+   box-shadow: 0 0 20px var(--clr-grey);
+   &:hover {
+      box-shadow: 0 0 20px var(--clr-drk-grey);
+      transition: 0.3s;
+   }
    &__clr-blue {
       color: var(--clr-blue);
       font-weight: 700;
+      margin: 5px 0px;
    }
    &__clr-red {
       color: var(--clr-red);
@@ -13,5 +19,10 @@
    }
    &__font12 {
       font-size: 12px;
+   }
+   &__cart {
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
    }
 }
