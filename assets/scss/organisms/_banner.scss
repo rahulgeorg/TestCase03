@@ -5,7 +5,7 @@
    }
 
    &__poster-img{
-    display: block;
+
     img{
         width: 100%;
         height: auto;
@@ -64,7 +64,7 @@
 
    .slick-dots li button:before {
     content: "";
-    background-color: var(--clr-white);
+    background-color: var(--clr-light-grey);
     opacity: 0.5;
     width: 15px;
     height: 7px;
@@ -139,24 +139,48 @@
         &__poster-mob-img {
             img {
                 width: 100%;
-                height: auto;
+                height: 120px;
             }
         }
 
         &__banner-menu-wrap {
             flex-wrap: wrap;
+            justify-content: center;
         }
 
         &__banner-menu-pair {
-
+            width: 160px;
             img{
-                width: 70px;
+                width: 40px;
                 height: auto;
             }
 
             p{
-                font-size: 16px;
+                font-size: 13px;
             }
+        }
+
+        &__left-arw {
+            left: 1px;
+            top: 45px;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            display: flex;
+        }
+
+        &__right-arw{
+            right: 1px;
+            top: 45px;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            display: flex;
+
+        }
+
+        .slick-dots {
+            bottom: 1px;
         }
     }
 }
