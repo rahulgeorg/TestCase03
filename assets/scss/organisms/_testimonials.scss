@@ -1,0 +1,29 @@
+.fm-testimonials {
+   position: relative;
+   &__outer {
+      padding: 50px;
+   }
+   &__ltarw, &__rtarw {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      width: 40px;
+      height: 40px;
+      background-color: var(--clr-white);
+      border-radius: 20px;
+      margin: 0px 10px;
+      cursor: pointer;
+      top: 150px;
+      &:hover {
+         background-color: var(--clr-grey);
+      }
+   }
+   &__ltarw {
+      left: 10px;
+   }
+   &__rtarw {
+      right: 10px;
+   }
+}

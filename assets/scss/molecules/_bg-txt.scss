@@ -1,0 +1,41 @@
+.bg-txt {
+   position: relative;
+   background-position: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 8px;
+   color: var(--clr-white);
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   cursor: pointer;
+   padding-bottom: 20px;
+   width: 240px;
+   height: 290px;
+   &__text {
+      font-size: 22px;
+      font-weight: 700;
+   }
+   &__text2 {
+     display: none;
+   }
+   &__black {
+      display: none;
+      position: absolute;
+      opacity: 0.8;
+      width: 240px;
+      height: 290px;
+      background: linear-gradient(var(--clr-grey), var(--clr-black));
+      top: 0;
+   }
+   &:hover {
+      justify-content: center;
+      &__text2 {
+         display: block;
+      }
+      &__black {
+         display: block;
+      }
+   }
+}
