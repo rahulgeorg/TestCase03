@@ -19,6 +19,9 @@
       &:hover {
          background-color: var(--clr-grey);
       }
+      &.slick-disabled {
+         display: none;
+      }
    }
    &__ltarw {
       left: 10px;

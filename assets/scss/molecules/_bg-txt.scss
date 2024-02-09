@@ -11,31 +11,33 @@
    justify-content: flex-end;
    cursor: pointer;
    padding-bottom: 20px;
+   margin-bottom: 15px;
    width: 240px;
    height: 290px;
    &__text {
       font-size: 22px;
       font-weight: 700;
    }
-   &__text2 {
-     display: none;
-   }
-   &__black {
-      display: none;
-      position: absolute;
-      opacity: 0.8;
-      width: 240px;
-      height: 290px;
-      background: linear-gradient(var(--clr-grey), var(--clr-black));
-      top: 0;
-   }
-   &:hover {
-      justify-content: center;
-      &__text2 {
-         display: block;
-      }
-      &__black {
-         display: block;
-      }
-   }
+   // &__text2 {
+   //    font-size: 13px;
+   //   display: none;
+   // }
+   // &__black {
+   //    display: none;
+   //    position: absolute;
+   //    opacity: 0.8;
+   //    width: 240px;
+   //    height: 290px;
+   //    background: linear-gradient(var(--clr-grey), var(--clr-black));
+   //    top: 0;
+   // }
+   // &:hover {
+   //    justify-content: center;
+   //    &__text2 {
+   //       display: block;
+   //    }
+   //    &__black {
+   //       display: block;
+   //    }
+   // }
 }
