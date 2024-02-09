@@ -1,6 +1,7 @@
 .img-text {
    display: flex;
    align-items: center;
+
    svg {
       margin-right: 10px;
       width: 25px;
@@ -14,6 +15,7 @@
          }
       }
    }
+
    p {
       color: var(--clr-blue);
       &:hover {
