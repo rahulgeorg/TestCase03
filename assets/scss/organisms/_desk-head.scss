@@ -1,0 +1,37 @@
+.fm-deskhead {
+   &__outer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+   }
+   &__line {
+      width: 100%;
+      height: 1px;
+      background-color: var(--clr-grey);
+   }
+   &__left {
+      color: var(--clr-drk-grey);
+      font-size: 12px;
+      margin-right: 20px;
+      &:hover {
+         color: var(--clr-red);
+         cursor: pointer;
+      }
+   }
+   &__right {
+      color: var(--clr-drk-grey);
+      font-size: 13px;
+      display: flex;
+      p {
+         margin-right: 20px;
+         &:hover {
+            color: var(--clr-red);
+            cursor: pointer;
+         }
+      }
+   }
+   &__red {
+      font-weight: bold;
+      color: var(--clr-red);
+   }
+}
