@@ -1,7 +1,22 @@
-.fm-testimonials {
+.fm-hdslide {
    position: relative;
    &__outer {
-      padding: 50px;
+      padding: 0px 50px 15px;
+   }
+   .slick-dots li button:before {
+      font-size: 35px;
+      color: var(--clr-red);
+   }
+   .slick-dots li.slick-active button:before {
+      color: var(--clr-red);
+   }
+   &__head {
+      text-align: center;
+   }
+   &__wrap {
+      img {
+         margin-bottom: 10px;
+      }
    }
    &__ltarw, &__rtarw {
       position: absolute;
@@ -29,4 +44,5 @@
    &__rtarw {
       right: 10px;
    }
+
 }
