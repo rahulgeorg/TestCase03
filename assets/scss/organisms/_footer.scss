@@ -1,0 +1,140 @@
+.ftr{
+    background-color: var(--clr-blue);
+    height: 400px;
+
+    &__wrap{
+        width: calc((100) / 4);
+        display: flex;
+    }
+    
+    &__cnta{
+        width: 100%;
+    }
+
+    &__logo{
+        width: 60%;
+        height: auto;
+        margin: 45px 0px 20px 0px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__scllogos{
+        display: flex;
+    }
+
+    &__scl{
+        margin: 0px 8px;
+    }
+
+    &__cntb{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    &__cntbhd{
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--clr-white);
+    }
+
+    &__cntbcpy{
+        font-size: 12px;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__cntbtxt{    
+        color: var(--clr-l-blue);
+        margin: 10px 0px;
+        &:hover{
+            color: var(--clr-red);
+        }
+    }
+
+    &__cntc{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    &__cntchd{
+        font-size: 21px;
+        font-weight: 700;
+        color: var(--clr-white);
+    }
+
+    &__cntpair{
+        display: flex;
+        align-items: center;
+        .cntprtxt{
+            color: var(--clr-l-blue);
+            font-size: 12px;
+            font-weight: 700;
+            padding-left: 10px;
+            margin: 10px 0px;
+            &:hover{
+                color: var(--clr-red);
+            }
+        }
+    }
+
+    &__cntccpy{
+        font-size: 10px;
+        font-weight: 600;
+        color: var(--clr-li-grey);
+        margin-top: 20px;
+    }
+
+    &__line{
+        height: 2px;
+        margin: 20px 0px;
+        background-color: var(--clr-drkr-grey);
+    }
+
+    &__btmwrp{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__cpyrht{
+        font-size: 11px;
+        font-weight: 500;
+        color: var(--clr-li-grey);
+    }
+
+    &__crds{
+        img{
+            width: 45px;
+            height: 25px;
+            padding-left: 5px;
+        }
+    }
+}
+
+@media (max-width:768px){
+    .ftr{
+        height: auto;
+
+        &__wrap{
+            flex-direction: column;
+        }
+
+        &__btmwrp{
+            flex-direction: column;
+        }
+
+        &__crds{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 10px;
+            img{
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
