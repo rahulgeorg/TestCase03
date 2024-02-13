@@ -38,6 +38,7 @@
         font-size: 15px;
         font-weight: 700;
         color: var(--clr-white);
+        margin-bottom: 15px;
     }
 
     &__cntbcpy{
@@ -49,10 +50,13 @@
 
     &__cntbtxt{    
         color: var(--clr-l-blue);
-        margin: 10px 0px;
         &:hover{
             color: var(--clr-red);
         }
+    }
+
+    &__cnttxtwrp{
+        margin: 10px 0px;
     }
 
     &__cntc{
@@ -64,6 +68,7 @@
         font-size: 21px;
         font-weight: 700;
         color: var(--clr-white);
+        margin-bottom: 15px;
     }
 
     &__cntpair{
@@ -135,6 +140,12 @@
             img{
                 margin-bottom: 5px;
             }
+        }
+
+        &__cnta{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     }
 }
